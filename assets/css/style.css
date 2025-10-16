@@ -843,7 +843,11 @@ footer a i {
 
 .show-items {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
 }
 
 
@@ -1044,6 +1048,7 @@ footer a i {
     .home-image {
         display: none;
     }
+
     /* .home-image {
         margin-right: 100px;
     } */
@@ -1069,10 +1074,11 @@ footer a i {
 
 
 @media (max-width:520px) {
-.fillter-buttons .button {
-    margin: 5px;
+    .fillter-buttons .button {
+        margin: 5px;
+    }
 }
-}
+
 @media (max-width:420px) {
     html {
         font-size: 80%;
