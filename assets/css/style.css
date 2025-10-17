@@ -566,7 +566,7 @@ section {
 }
 
 .skill-bar .bar .bootstrap {
-    width: 90%;
+    width: 95%;
     animation: figma 3s;
 }
 
@@ -577,8 +577,9 @@ section {
 }
 
 .skill-bar .bar .javascript {
-    width: 65%;
-    animation: javascript 6s;
+    width: 75%;
+    animation: javascript 5s;
+    -webkit-animation: javascript 5s;
 }
 
 /* =========== Skill right ==================== */
